@@ -19,7 +19,7 @@
     </div>
 
     <div
-      class="tw-container tw-mx-auto tw-px-4 sm:tw-px-6 lg:tw-px-8 tw-relative tw-z-10"
+      class="tw-container tw-mx-auto tw-px-4 sm:tw-px-6 lg:tw-px-8 tw-relative tw-z-10 tw-py-32"
     >
       <div
         class="tw-grid lg:tw-grid-cols-2 tw-gap-6 sm:tw-gap-8 md:tw-gap-10 lg:tw-gap-12 xl:tw-gap-16 tw-items-center"
