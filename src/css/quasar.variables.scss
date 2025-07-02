@@ -1,0 +1,83 @@
+// Quasar SCSS (& Sass) Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass/SCSS variables found in Quasar's source Sass/SCSS files.
+
+// Check documentation for full list of Quasar variables
+
+// Your own variables (that are declared here) and Quasar's own
+// ones will be available out of the box in your .vue/.scss/.sass files
+
+// It's highly recommended to change the default colors
+// to match your app's branding.
+// Tip: Use the "Theme Builder" on Quasar's documentation website.
+
+$primary: #fe5000;
+$secondary: #ff7e3f;
+$accent: #ff9966;
+
+$dark: #202020;
+$dark-page: #151515;
+
+$positive: #48bb78;
+$negative: #e53e3e;
+$info: #3182ce;
+$warning: #ed8936;
+
+// Thai PBS specific colors
+$thai-pbs: #fe5000;
+$thai-pbs-light: #ff7e3f;
+$thai-pbs-dark: #d43d00;
+$thai-pbs-bg: #202020;
+$thai-pbs-bg-light: #2d2d2d;
+$thai-pbs-bg-dark: #151515;
+
+// Additional UI colors extracted from the project
+// DARK MODE colors
+$bg-primary: #202020;
+$bg-secondary: #1a1a1a;
+$bg-card: #252525;
+$bg-input: #252525;
+$bg-card-dark: #1d1d1d;
+$bg-progress: #333;
+
+$border-color: #3a3a3a;
+$border-light: rgba(255, 255, 255, 0.1);
+
+$text-primary: #ffffff;
+$text-secondary: #bbbbbb;
+$text-muted: #666666;
+$text-light: #e0e0e0;
+$text-gray-300: #d1d5db;
+$text-gray-400: #9ca3af;
+$text-gray-500: #6b7280;
+
+// Type-specific colors
+$news-color: #fe5000;
+$talk-color: #3b82f6; // blue-500
+$documentary-color: #10b981; // green-500
+$interview-color: #8b5cf6; // purple-500
+$entertainment-color: #eab308; // yellow-500
+$drama-color: #ec4899; // pink-500
+$comedy-color: #6366f1; // indigo-500
+$sports-color: #0ea5e9; // sky-500
+$technology-color: #06b6d4; // cyan-500
+
+// LIGHT MODE colors - improved with better contrast
+$light-bg-primary: #ffffff;
+$light-bg-secondary: #f5f5f5;
+$light-bg-card: #ffffff;
+$light-bg-input: #f9f9f9;
+$light-bg-card-dark: #f0f0f0;
+$light-bg-progress: #e0e0e0;
+
+$light-text-primary: #333333;
+$light-text-secondary: #666666;
+$light-text-muted: #888888;
+$light-text-light: #444444;
+$light-text-gray-300: #555555;
+$light-text-gray-400: #777777;
+$light-text-gray-500: #999999;
+
+$light-border-color: #e0e0e0;
+$light-border-light: rgba(0, 0, 0, 0.1);
