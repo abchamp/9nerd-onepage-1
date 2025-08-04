@@ -31,11 +31,11 @@
           class="tw-text-white/90 tw-cursor-pointer tw-font-medium tw-transition-all tw-duration-300 hover:tw-text-cyan-300 hover:tw-scale-105 tw-text-sm xl:tw-text-base"
           >หน้าแรก</span
         >
-        <span
+        <!-- <span
           @click="scrollToSection('testimonials')"
           class="tw-text-white/90 tw-cursor-pointer tw-font-medium tw-transition-all tw-duration-300 hover:tw-text-cyan-300 hover:tw-scale-105 tw-text-sm xl:tw-text-base"
           >รีวิว</span
-        >
+        > -->
         <span
           @click="scrollToSection('features')"
           class="tw-text-white/90 tw-cursor-pointer tw-font-medium tw-transition-all tw-duration-300 hover:tw-text-cyan-300 hover:tw-scale-105 tw-text-sm xl:tw-text-base"
@@ -70,12 +70,14 @@
         <q-btn
           flat
           no-caps
+          @click="openMakeUrl"
           class="tw-text-white/90 tw-font-semibold tw-px-4 sm:tw-px-6 tw-py-2 tw-rounded-xl tw-border tw-border-white/20 tw-backdrop-blur-sm hover:tw-bg-white/10 tw-transition-all tw-duration-300 hover:tw-scale-105 hover:tw-border-white/40 tw-text-xs sm:tw-text-sm"
         >
           <span class="tw-text-white tw-font-bold">เข้าสู่ระบบ</span>
         </q-btn>
         <q-btn
           no-caps
+          @click="openMakeUrl"
           class="tw-bg-gradient-to-r tw-from-cyan-500 tw-to-blue-500 tw-text-white tw-font-bold tw-px-4 sm:tw-px-8 tw-py-2 sm:tw-py-3 tw-rounded-xl tw-shadow-xl tw-shadow-cyan-500/25 hover:tw-shadow-cyan-500/40 tw-transition-all tw-duration-300 hover:tw-scale-105 hover:tw--translate-y-1 tw-text-xs sm:tw-text-sm"
         >
           <q-icon
@@ -190,12 +192,14 @@
         <q-btn
           flat
           no-caps
+          @click="openMakeUrl"
           class="tw-w-full tw-text-white/90 tw-font-semibold tw-px-6 tw-py-3 tw-rounded-xl tw-border tw-border-white/20 tw-backdrop-blur-sm hover:tw-bg-white/10 tw-transition-all tw-duration-300"
         >
           <span class="tw-text-white tw-font-bold">เข้าสู่ระบบ</span>
         </q-btn>
         <q-btn
           no-caps
+          @click="openMakeUrl"
           class="tw-w-full tw-bg-gradient-to-r tw-from-cyan-500 tw-to-blue-500 tw-text-white tw-font-bold tw-px-6 tw-py-3 tw-rounded-xl tw-shadow-xl tw-shadow-cyan-500/25"
         >
           <q-icon name="rocket_launch" class="tw-mr-2 tw-text-white" />
@@ -243,6 +247,10 @@ const scrollToSectionMobile = (sectionId) => {
   setTimeout(() => {
     scrollToSection(sectionId);
   }, 300);
+};
+
+const openMakeUrl = () => {
+  window.open("https://make.9nerd.ai/", "_blank");
 };
 </script>
 
