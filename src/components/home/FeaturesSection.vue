@@ -302,6 +302,7 @@
               <q-btn
                 no-caps
                 size="md"
+                @click="openMakeUrl"
                 class="tw-bg-gradient-to-r tw-from-purple-500 tw-to-purple-600 tw-px-4 sm:tw-px-6 tw-py-2 sm:tw-py-2.5 tw-rounded-lg tw-shadow-lg hover:tw-shadow-purple-500/40 tw-transform hover:tw-scale-105 tw-transition-all tw-duration-300 tw-w-full sm:tw-w-auto"
               >
                 <q-icon
@@ -435,6 +436,7 @@
               <q-btn
                 no-caps
                 size="md"
+                @click="openMakeUrl"
                 class="tw-bg-gradient-to-r tw-from-green-500 tw-to-green-600 tw-px-6 tw-py-2.5 tw-rounded-lg tw-shadow-lg hover:tw-shadow-green-500/40 tw-transform hover:tw-scale-105 tw-transition-all tw-duration-300"
               >
                 <q-icon name="quiz" class="tw-mr-2 tw-text-white" />
