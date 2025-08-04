@@ -160,42 +160,12 @@
               </q-btn>
             </div>
 
-            <div class="tw-relative tw-aspect-video tw-mt-6 lg:tw-mt-0">
-              <div
-                class="tw-bg-gradient-to-br tw-from-blue-50 tw-to-indigo-100 tw-rounded-xl tw-p-4 sm:tw-p-6 tw-border tw-border-blue-200/50 tw-h-full"
-              >
-                <div
-                  class="tw-space-y-2 sm:tw-space-y-3 tw-h-full tw-flex tw-flex-col tw-justify-center"
-                >
-                  <div
-                    class="tw-h-3 sm:tw-h-4 tw-bg-blue-200 tw-rounded-lg tw-w-3/4"
-                  ></div>
-                  <div
-                    class="tw-h-2 sm:tw-h-3 tw-bg-blue-150 tw-rounded tw-w-full"
-                  ></div>
-                  <div
-                    class="tw-h-2 sm:tw-h-3 tw-bg-blue-150 tw-rounded tw-w-5/6"
-                  ></div>
-                  <div
-                    class="tw-grid tw-grid-cols-2 tw-gap-2 sm:tw-gap-3 tw-mt-3 sm:tw-mt-4 tw-flex-1"
-                  >
-                    <div
-                      class="tw-bg-white/70 tw-rounded-lg tw-shadow-sm"
-                    ></div>
-                    <div
-                      class="tw-bg-white/70 tw-rounded-lg tw-shadow-sm"
-                    ></div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="tw-absolute tw--top-2 tw--right-2 sm:tw--top-3 sm:tw--right-3 tw-w-8 tw-h-8 sm:tw-w-10 sm:tw-h-10 tw-bg-blue-500 tw-rounded-lg tw-shadow-lg tw-flex tw-items-center tw-justify-center tw-animate-bounce"
-              >
-                <q-icon
-                  name="psychology"
-                  class="tw-text-white tw-text-xs sm:tw-text-sm"
-                />
-              </div>
+            <div class="tw-relative tw-aspect-video tw-p-2 tw-mt-6 lg:tw-mt-0">
+              <img
+                src="/src/assets/hero.png"
+                alt="Educators Dashboard"
+                class="tw-w-full tw-h-full tw-object-cover tw-rounded-xl tw-shadow-xl tw-shadow-gray-500/25 hover:tw-shadow-gray-500/40 tw-transition-shadow tw-duration-300"
+              />
             </div>
           </div>
         </div>
@@ -316,42 +286,12 @@
               </q-btn>
             </div>
 
-            <div class="tw-relative tw-aspect-video tw-mt-6 lg:tw-mt-0">
-              <div
-                class="tw-bg-gradient-to-br tw-from-purple-50 tw-to-pink-100 tw-rounded-xl tw-p-4 sm:tw-p-6 tw-border tw-border-purple-200/50 tw-h-full"
-              >
-                <div
-                  class="tw-space-y-2 sm:tw-space-y-3 tw-h-full tw-flex tw-flex-col tw-justify-center"
-                >
-                  <div
-                    class="tw-h-3 sm:tw-h-4 tw-bg-purple-200 tw-rounded-lg tw-w-3/4"
-                  ></div>
-                  <div
-                    class="tw-h-2 sm:tw-h-3 tw-bg-purple-150 tw-rounded tw-w-full"
-                  ></div>
-                  <div
-                    class="tw-h-2 sm:tw-h-3 tw-bg-purple-150 tw-rounded tw-w-5/6"
-                  ></div>
-                  <div
-                    class="tw-grid tw-grid-cols-2 tw-gap-2 sm:tw-gap-3 tw-mt-3 sm:tw-mt-4 tw-flex-1"
-                  >
-                    <div
-                      class="tw-bg-white/70 tw-rounded-lg tw-shadow-sm"
-                    ></div>
-                    <div
-                      class="tw-bg-white/70 tw-rounded-lg tw-shadow-sm"
-                    ></div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="tw-absolute tw--top-2 tw--right-2 sm:tw--top-3 sm:tw--right-3 tw-w-8 tw-h-8 sm:tw-w-10 sm:tw-h-10 tw-bg-purple-500 tw-rounded-lg tw-shadow-lg tw-flex tw-items-center tw-justify-center tw-animate-bounce"
-              >
-                <q-icon
-                  name="translate"
-                  class="tw-text-white tw-text-xs sm:tw-text-sm"
-                />
-              </div>
+            <div class="tw-relative tw-aspect-video tw-p-2 tw-mt-6 lg:tw-mt-0">
+              <img
+                src="/src/assets/feature2.png"
+                alt="Feature 2"
+                class="tw-w-full tw-h-full tw-object-cover tw-rounded-xl tw-shadow-xl tw-shadow-gray-500/25 hover:tw-shadow-gray-500/40 tw-transition-shadow tw-duration-300"
+              />
             </div>
           </div>
         </div>
@@ -444,37 +384,12 @@
               </q-btn>
             </div>
 
-            <div class="tw-relative tw-aspect-video">
-              <div
-                class="tw-bg-gradient-to-br tw-from-green-50 tw-to-emerald-100 tw-rounded-xl tw-p-6 tw-border tw-border-green-200/50 tw-h-full"
-              >
-                <div
-                  class="tw-space-y-3 tw-h-full tw-flex tw-flex-col tw-justify-center"
-                >
-                  <div
-                    class="tw-h-4 tw-bg-green-200 tw-rounded-lg tw-w-3/4"
-                  ></div>
-                  <div
-                    class="tw-h-3 tw-bg-green-150 tw-rounded tw-w-full"
-                  ></div>
-                  <div class="tw-h-3 tw-bg-green-150 tw-rounded tw-w-5/6"></div>
-                  <div
-                    class="tw-grid tw-grid-cols-2 tw-gap-3 tw-mt-4 tw-flex-1"
-                  >
-                    <div
-                      class="tw-bg-white/70 tw-rounded-lg tw-shadow-sm"
-                    ></div>
-                    <div
-                      class="tw-bg-white/70 tw-rounded-lg tw-shadow-sm"
-                    ></div>
-                  </div>
-                </div>
-              </div>
-              <div
-                class="tw-absolute tw--top-3 tw--right-3 tw-w-10 tw-h-10 tw-bg-green-500 tw-rounded-lg tw-shadow-lg tw-flex tw-items-center tw-justify-center tw-animate-bounce"
-              >
-                <q-icon name="lightbulb" class="tw-text-white tw-text-sm" />
-              </div>
+            <div class="tw-relative tw-aspect-video tw-p-2">
+              <img
+                src="/src/assets/feature3.png"
+                alt="Feature 3"
+                class="tw-w-full tw-h-full tw-object-cover tw-rounded-xl tw-shadow-xl tw-shadow-gray-500/25 hover:tw-shadow-gray-500/40 tw-transition-shadow tw-duration-300"
+              />
             </div>
           </div>
         </div>

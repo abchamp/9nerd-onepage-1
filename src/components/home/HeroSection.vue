@@ -150,27 +150,20 @@
                     class="tw-w-2 tw-h-2 sm:tw-w-2.5 sm:tw-h-2.5 md:tw-w-3 md:tw-h-3 tw-bg-green-400 tw-rounded-full"
                   ></div>
                 </div>
-                <div class="tw-text-xs sm:tw-text-sm tw-text-white/60">
+                <!-- <div class="tw-text-xs sm:tw-text-sm tw-text-white/60">
                   9nerd.ai Dashboard
-                </div>
+                </div> -->
               </div>
 
               <!-- Dashboard content -->
-              <div class="tw-space-y-3 sm:tw-space-y-4">
-                <div
-                  class="tw-h-6 sm:tw-h-8 md:tw-h-10 lg:tw-h-12 tw-bg-gradient-to-r tw-from-blue-500/20 tw-to-purple-500/20 tw-rounded-lg tw-border tw-border-white/10"
-                ></div>
-                <div class="tw-grid tw-grid-cols-2 tw-gap-2 sm:tw-gap-3">
-                  <div
-                    class="tw-h-8 sm:tw-h-12 md:tw-h-14 lg:tw-h-16 tw-bg-white/5 tw-rounded-lg tw-border tw-border-white/10"
-                  ></div>
-                  <div
-                    class="tw-h-8 sm:tw-h-12 md:tw-h-14 lg:tw-h-16 tw-bg-white/5 tw-rounded-lg tw-border tw-border-white/10"
-                  ></div>
-                </div>
-                <div
-                  class="tw-h-12 sm:tw-h-16 md:tw-h-20 lg:tw-h-24 tw-bg-gradient-to-br tw-from-cyan-500/10 tw-to-blue-500/10 tw-rounded-lg tw-border tw-border-white/10"
-                ></div>
+              <div
+                class="tw-relative tw-aspect-video tw-p-2 tw-overflow-hidden tw-rounded-lg"
+              >
+                <img
+                  src="/src/assets/home.png"
+                  alt="9nerd.ai Dashboard Preview"
+                  class="tw-w-full tw-h-full tw-object-cover tw-rounded-lg"
+                />
               </div>
             </div>
 
