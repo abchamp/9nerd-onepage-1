@@ -7,13 +7,11 @@
     >
       <!-- Logo -->
       <div class="tw-flex tw-items-center tw-space-x-2 sm:tw-space-x-3">
-        <div
-          class="tw-w-8 tw-h-8 sm:tw-w-10 sm:tw-h-10 tw-bg-gradient-to-r tw-from-cyan-400 tw-to-blue-500 tw-rounded-xl tw-flex tw-items-center tw-justify-center tw-shadow-lg tw-shadow-blue-500/25"
-        >
-          <span class="tw-text-white tw-font-black tw-text-base sm:tw-text-lg"
-            >9</span
-          >
-        </div>
+        <img
+          src="/src/assets/apple-touch-icon.png"
+          alt="9nerd.ai Logo"
+          class="tw-w-8 tw-h-8 sm:tw-w-10 sm:tw-h-10 tw-rounded-xl tw-shadow-lg tw-shadow-blue-500/25"
+        />
         <span
           class="tw-text-lg sm:tw-text-2xl tw-font-black tw-bg-gradient-to-r tw-from-white tw-to-blue-100 tw-bg-clip-text tw-text-transparent"
           >9nerd.ai</span
@@ -115,11 +113,11 @@
         class="tw-flex tw-items-center tw-justify-between tw-p-6 tw-border-b tw-border-white/10"
       >
         <div class="tw-flex tw-items-center tw-space-x-3">
-          <div
-            class="tw-w-8 tw-h-8 tw-bg-gradient-to-r tw-from-cyan-400 tw-to-blue-500 tw-rounded-xl tw-flex tw-items-center tw-justify-center"
-          >
-            <span class="tw-text-white tw-font-black tw-text-lg">9</span>
-          </div>
+          <img
+            src="/src/assets/apple-touch-icon.png"
+            alt="9nerd.ai Logo"
+            class="tw-w-8 tw-h-8 tw-rounded-xl"
+          />
           <span class="tw-text-xl tw-font-black tw-text-white">9nerd.ai</span>
         </div>
         <q-btn

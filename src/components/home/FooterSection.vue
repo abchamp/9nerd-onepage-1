@@ -12,14 +12,11 @@
           <div
             class="tw-flex tw-items-center tw-space-x-2 sm:tw-space-x-3 tw-mb-3 sm:tw-mb-4"
           >
-            <div
-              class="tw-w-6 tw-h-6 sm:tw-w-8 sm:tw-h-8 md:tw-w-10 md:tw-h-10 tw-bg-gradient-to-r tw-from-cyan-500 tw-to-blue-500 tw-rounded-xl tw-flex tw-items-center tw-justify-center"
-            >
-              <span
-                class="tw-text-white tw-font-black tw-text-sm sm:tw-text-base md:tw-text-lg"
-                >9</span
-              >
-            </div>
+            <img
+              src="/src/assets/apple-touch-icon.png"
+              alt="9nerd.ai Logo"
+              class="tw-w-6 tw-h-6 sm:tw-w-8 sm:tw-h-8 md:tw-w-10 md:tw-h-10 tw-rounded-xl"
+            />
             <span
               class="tw-text-base sm:tw-text-lg md:tw-text-xl tw-text-white tw-font-black"
               >9nerd.ai</span
