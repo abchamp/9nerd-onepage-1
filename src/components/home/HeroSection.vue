@@ -84,21 +84,6 @@
                 >เริ่มใช้งานฟรีวันนี้</span
               >
             </q-btn>
-            <q-btn
-              no-caps
-              size="lg"
-              flat
-              class="tw-border-2 tw-border-white/30 tw-text-white tw-font-bold tw-px-6 sm:tw-px-8 md:tw-px-10 tw-py-3 sm:tw-py-4 tw-rounded-xl tw-backdrop-blur-sm hover:tw-bg-white/10 tw-transition-all tw-duration-300 tw-w-full sm:tw-w-auto"
-            >
-              <q-icon
-                name="play_circle"
-                class="tw-mr-2 tw-text-white tw-text-sm sm:tw-text-base"
-              />
-              <span
-                class="tw-text-white tw-font-bold tw-text-sm sm:tw-text-base md:tw-text-lg"
-                >Watch Demo</span
-              >
-            </q-btn>
           </div>
 
           <!-- Trust indicators -->

@@ -65,21 +65,6 @@
             >เริ่มทดลองใช้ฟรี</span
           >
         </q-btn>
-        <q-btn
-          no-caps
-          size="lg"
-          flat
-          class="tw-border-2 tw-border-slate-300 tw-text-slate-700 tw-font-bold tw-px-6 sm:tw-px-8 md:tw-px-10 lg:tw-px-12 tw-py-3 sm:tw-py-4 tw-rounded-xl tw-backdrop-blur-sm hover:tw-bg-slate-100 tw-transition-all tw-duration-300 tw-w-full sm:tw-w-auto"
-        >
-          <q-icon
-            name="videocam"
-            class="tw-mr-2 tw-text-slate-700 tw-text-sm sm:tw-text-base"
-          />
-          <span
-            class="tw-text-slate-700 tw-font-bold tw-text-sm sm:tw-text-base md:tw-text-lg"
-            >Watch Demo</span
-          >
-        </q-btn>
       </div>
 
       <!-- Trust indicators -->

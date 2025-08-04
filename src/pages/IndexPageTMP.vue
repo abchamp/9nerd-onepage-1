@@ -66,14 +66,6 @@
                 label="Start Free Trial"
                 icon="rocket_launch"
               />
-              <q-btn
-                no-caps
-                size="xl"
-                flat
-                class="tw-border-2 tw-border-white/30 tw-text-white tw-font-bold tw-px-10 tw-py-4 tw-rounded-2xl tw-backdrop-blur-sm hover:tw-bg-white/10 tw-transition-all tw-duration-300"
-                label="Watch Demo"
-                icon="play_circle"
-              />
             </div>
 
             <!-- Trust indicators -->
@@ -1623,14 +1615,6 @@
             class="tw-bg-gradient-to-r tw-from-cyan-500 tw-to-blue-500 tw-text-white tw-font-bold tw-px-12 tw-py-5 tw-rounded-2xl tw-shadow-2xl tw-shadow-cyan-500/25 hover:tw-shadow-cyan-500/40 tw-transform hover:tw-scale-105 tw-transition-all tw-duration-300"
             label="Start Free Trial"
             icon="rocket_launch"
-          />
-          <q-btn
-            no-caps
-            size="xl"
-            flat
-            class="tw-border-2 tw-border-white/30 tw-text-white tw-font-bold tw-px-12 tw-py-5 tw-rounded-2xl tw-backdrop-blur-sm hover:tw-bg-white/10 tw-transition-all tw-duration-300"
-            label="Schedule Demo"
-            icon="videocam"
           />
         </div>
 

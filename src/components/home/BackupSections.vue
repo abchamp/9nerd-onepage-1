@@ -1445,15 +1445,6 @@
           <q-icon name="rocket_launch" class="tw-mr-2 tw-text-white" />
           <span class="tw-text-white tw-font-bold">Start Free Trial</span>
         </q-btn>
-        <q-btn
-          no-caps
-          size="xl"
-          flat
-          class="tw-border-2 tw-border-white/30 tw-text-white tw-font-bold tw-px-12 tw-py-5 tw-rounded-2xl tw-backdrop-blur-sm hover:tw-bg-white/10 tw-transition-all tw-duration-300"
-        >
-          <q-icon name="videocam" class="tw-mr-2 tw-text-white" />
-          <span class="tw-text-white tw-font-bold">Schedule Demo</span>
-        </q-btn>
       </div>
 
       <!-- Trust indicators -->
