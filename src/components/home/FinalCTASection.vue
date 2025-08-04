@@ -43,7 +43,7 @@
       <p
         class="tw-text-sm sm:tw-text-base md:tw-text-lg lg:tw-text-xl tw-text-slate-600 tw-max-w-2xl tw-mx-auto tw-mb-6 sm:tw-mb-8 md:tw-mb-10 tw-leading-relaxed tw-px-2 sm:tw-px-4"
       >
-        เข้าร่วมกับครูและผู้ศึกษากว่า 5 ล้านคนทั่วโลกที่ใช้ 9nerd.ai
+        เข้าร่วมกับครูและผู้ศึกษา ที่ใช้ 9nerd.ai
         ในการสร้างประสบการณ์การเรียนรู้ที่ยอดเยี่ยม เริ่มทดลองใช้ฟรีวันนี้
         และค้นพบอนาคตของการศึกษา
       </p>

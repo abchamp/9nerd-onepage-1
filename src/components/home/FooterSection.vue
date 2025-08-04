@@ -8,7 +8,7 @@
         class="tw-grid grid-cols-1 sm:tw-grid-cols-2 lg:tw-grid-cols-5 tw-gap-6 sm:tw-gap-8 md:tw-gap-10"
       >
         <!-- Brand -->
-        <div class="sm:tw-col-span-2 lg:tw-col-span-2">
+        <div class="sm:tw-col-span-1 lg:tw-col-span-2 tw-order-1">
           <div
             class="tw-flex tw-items-center tw-space-x-2 sm:tw-space-x-3 tw-mb-3 sm:tw-mb-4"
           >
@@ -28,8 +28,7 @@
           <p
             class="tw-text-slate-400 tw-leading-relaxed tw-mb-3 sm:tw-mb-4 tw-max-w-md tw-text-xs sm:tw-text-sm md:tw-text-base"
           >
-            The world's most advanced AI platform for education. Trusted by
-            millions of educators to create exceptional learning experiences.
+            The AI platform for modern education.
           </p>
           <div class="tw-flex tw-space-x-2 sm:tw-space-x-3">
             <q-btn
@@ -64,127 +63,46 @@
         </div>
 
         <!-- Navigation -->
-        <div>
+        <div
+          class="sm:tw-col-span-1 lg:tw-col-span-3 tw-order-2 sm:tw-text-right"
+        >
           <h3
             class="tw-font-bold tw-text-xs sm:tw-text-sm md:tw-text-base tw-mb-3 sm:tw-mb-4 tw-text-white"
           >
             เมนูหลัก
           </h3>
-          <div class="tw-space-y-1.5 sm:tw-space-y-2">
+          <div
+            class="tw-flex tw-flex-wrap tw-gap-x-4 tw-gap-y-2 sm:tw-justify-end"
+          >
             <span
               @click="scrollToSection('hero')"
-              class="tw-block tw-text-slate-400 hover:tw-text-white tw-transition-colors tw-text-xs sm:tw-text-sm md:tw-text-base tw-cursor-pointer"
+              class="tw-text-slate-400 hover:tw-text-white tw-transition-colors tw-text-xs sm:tw-text-sm md:tw-text-base tw-cursor-pointer tw-whitespace-nowrap"
               >หน้าแรก</span
             >
             <span
-              @click="scrollToSection('testimonials')"
-              class="tw-block tw-text-slate-400 hover:tw-text-white tw-transition-colors tw-text-xs sm:tw-text-sm md:tw-text-base tw-cursor-pointer"
-              >รีวิว</span
-            >
-            <span
               @click="scrollToSection('features')"
-              class="tw-block tw-text-slate-400 hover:tw-text-white tw-transition-colors tw-text-xs sm:tw-text-sm md:tw-text-base tw-cursor-pointer"
+              class="tw-text-slate-400 hover:tw-text-white tw-transition-colors tw-text-xs sm:tw-text-sm md:tw-text-base tw-cursor-pointer tw-whitespace-nowrap"
               >ฟีเจอร์</span
             >
             <span
               @click="scrollToSection('comparison')"
-              class="tw-block tw-text-slate-400 hover:tw-text-white tw-transition-colors tw-text-xs sm:tw-text-sm md:tw-text-base tw-cursor-pointer"
+              class="tw-text-slate-400 hover:tw-text-white tw-transition-colors tw-text-xs sm:tw-text-sm md:tw-text-base tw-cursor-pointer tw-whitespace-nowrap"
               >เปรียบเทียบ</span
             >
-          </div>
-        </div>
-
-        <!-- Sections -->
-        <div>
-          <h3
-            class="tw-font-bold tw-text-xs sm:tw-text-sm md:tw-text-base tw-mb-3 sm:tw-mb-4 tw-text-white"
-          >
-            หมวดหมู่
-          </h3>
-          <div class="tw-space-y-1.5 sm:tw-space-y-2">
             <span
               @click="scrollToSection('steps')"
-              class="tw-block tw-text-slate-400 hover:tw-text-white tw-transition-colors tw-text-xs sm:tw-text-sm md:tw-text-base tw-cursor-pointer"
+              class="tw-text-slate-400 hover:tw-text-white tw-transition-colors tw-text-xs sm:tw-text-sm md:tw-text-base tw-cursor-pointer tw-whitespace-nowrap"
               >วิธีใช้งาน</span
             >
             <span
               @click="scrollToSection('faq')"
-              class="tw-block tw-text-slate-400 hover:tw-text-white tw-transition-colors tw-text-xs sm:tw-text-sm md:tw-text-base tw-cursor-pointer"
+              class="tw-text-slate-400 hover:tw-text-white tw-transition-colors tw-text-xs sm:tw-text-sm md:tw-text-base tw-cursor-pointer tw-whitespace-nowrap"
               >คำถามยอดนิยม</span
             >
             <span
               @click="scrollToSection('pricing')"
-              class="tw-block tw-text-slate-400 hover:tw-text-white tw-transition-colors tw-text-xs sm:tw-text-sm md:tw-text-base tw-cursor-pointer"
+              class="tw-bg-gradient-to-r tw-from-yellow-400 tw-to-orange-400 tw-bg-clip-text tw-text-transparent hover:tw-text-cyan-300 tw-transition-colors tw-text-xs sm:tw-text-sm md:tw-text-base tw-cursor-pointer tw-whitespace-nowrap"
               >แพ็กเกจ</span
-            >
-            <a
-              href="#"
-              class="tw-block tw-text-slate-400 hover:tw-text-white tw-transition-colors tw-text-xs sm:tw-text-sm md:tw-text-base"
-              >ติดต่อเรา</a
-            >
-          </div>
-        </div>
-
-        <!-- Legal -->
-        <div>
-          <h3
-            class="tw-font-bold tw-text-xs sm:tw-text-sm md:tw-text-base tw-mb-3 sm:tw-mb-4 tw-text-white"
-          >
-            กฎหมาย
-          </h3>
-          <div class="tw-space-y-1.5 sm:tw-space-y-2">
-            <a
-              href="#"
-              class="tw-block tw-text-slate-400 hover:tw-text-white tw-transition-colors tw-text-xs sm:tw-text-sm md:tw-text-base"
-              >นโยบายความเป็นส่วนตัว</a
-            >
-            <a
-              href="#"
-              class="tw-block tw-text-slate-400 hover:tw-text-white tw-transition-colors tw-text-xs sm:tw-text-sm md:tw-text-base"
-              >ข้อกำหนดการใช้งาน</a
-            >
-            <a
-              href="#"
-              class="tw-block tw-text-slate-400 hover:tw-text-white tw-transition-colors tw-text-xs sm:tw-text-sm md:tw-text-base"
-              >ความปลอดภัย</a
-            >
-            <a
-              href="#"
-              class="tw-block tw-text-slate-400 hover:tw-text-white tw-transition-colors tw-text-xs sm:tw-text-sm md:tw-text-base"
-              >การเข้าถึง</a
-            >
-          </div>
-        </div>
-      </div>
-
-      <!-- Bottom bar -->
-      <div
-        class="tw-border-t tw-border-slate-700 tw-mt-6 sm:tw-mt-8 md:tw-mt-10 tw-pt-4 sm:tw-pt-6 tw-flex tw-flex-col sm:tw-flex-row tw-justify-between tw-items-center tw-space-y-3 sm:tw-space-y-0"
-      >
-        <p
-          class="tw-text-slate-400 tw-text-xs sm:tw-text-sm md:tw-text-base tw-text-center sm:tw-text-left"
-        >
-          © 2024 9nerd.ai. All rights reserved.
-        </p>
-        <div
-          class="tw-flex tw-flex-col sm:tw-flex-row tw-items-center tw-space-y-2 sm:tw-space-y-0 sm:tw-space-x-3 md:tw-space-x-4"
-        >
-          <div class="tw-flex tw-items-center tw-space-x-1.5 sm:tw-space-x-2">
-            <q-icon
-              name="security"
-              class="tw-text-green-400 tw-text-xs sm:tw-text-sm md:tw-text-base"
-            />
-            <span class="tw-text-slate-400 tw-text-xs sm:tw-text-sm"
-              >SOC 2 Compliant</span
-            >
-          </div>
-          <div class="tw-flex tw-items-center tw-space-x-1.5 sm:tw-space-x-2">
-            <q-icon
-              name="verified_user"
-              class="tw-text-blue-400 tw-text-xs sm:tw-text-sm md:tw-text-base"
-            />
-            <span class="tw-text-slate-400 tw-text-xs sm:tw-text-sm"
-              >FERPA Compliant</span
             >
           </div>
         </div>
@@ -199,13 +117,13 @@
 const scrollToSection = (sectionId) => {
   const sectionMap = {
     hero: 0, // Top of page
-    testimonials: 1,
-    features: 2,
-    comparison: 3,
-    steps: 4,
-    faq: 5,
-    pricing: 6,
-    cta: 7,
+    // testimonials: 1,
+    features: 1,
+    comparison: 2,
+    steps: 3,
+    faq: 4,
+    pricing: 5,
+    cta: 6,
   };
 
   // Get all sections in order

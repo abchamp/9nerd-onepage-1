@@ -142,13 +142,13 @@
             <q-icon name="home" class="tw-text-cyan-400 tw-text-lg" />
             <span class="tw-text-white tw-font-medium">หน้าแรก</span>
           </div>
-          <div
+          <!-- <div
             @click="scrollToSectionMobile('testimonials')"
             class="tw-flex tw-items-center tw-space-x-3 tw-p-3 tw-rounded-xl tw-cursor-pointer hover:tw-bg-white/10 tw-transition-all tw-duration-300"
           >
             <q-icon name="reviews" class="tw-text-cyan-400 tw-text-lg" />
             <span class="tw-text-white tw-font-medium">รีวิว</span>
-          </div>
+          </div> -->
           <div
             @click="scrollToSectionMobile('features')"
             class="tw-flex tw-items-center tw-space-x-3 tw-p-3 tw-rounded-xl tw-cursor-pointer hover:tw-bg-white/10 tw-transition-all tw-duration-300"
@@ -221,13 +221,13 @@ const mobileMenuOpen = ref(false);
 const scrollToSection = (sectionId) => {
   const sectionMap = {
     hero: 0, // Top of page
-    testimonials: 1,
-    features: 2,
-    comparison: 3,
-    steps: 4,
-    faq: 5,
-    pricing: 6,
-    cta: 7,
+    // testimonials: 1,
+    features: 1,
+    comparison: 2,
+    steps: 3,
+    faq: 4,
+    pricing: 5,
+    cta: 6,
   };
 
   // Get all sections in order
