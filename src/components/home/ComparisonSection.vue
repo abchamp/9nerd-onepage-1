@@ -240,6 +240,7 @@
               <q-btn
                 no-caps
                 size="sm"
+                @click="openMakeUrl"
                 class="tw-bg-gradient-to-r tw-from-cyan-500 tw-to-blue-500 tw-text-white tw-font-bold tw-px-4 sm:tw-px-6 md:tw-px-8 tw-py-2 sm:tw-py-3 tw-rounded-lg tw-shadow-lg tw-shadow-cyan-500/25 hover:tw-shadow-cyan-500/40 tw-transform hover:tw-scale-105 tw-transition-all tw-duration-300 tw-w-full sm:tw-w-auto"
               >
                 <q-icon
@@ -278,22 +279,12 @@
           <q-btn
             no-caps
             size="lg"
+            @click="openMakeUrl"
             class="tw-bg-gradient-to-r tw-from-cyan-500 tw-to-blue-500 tw-text-white tw-font-bold tw-px-6 sm:tw-px-10 tw-py-3 sm:tw-py-4 tw-rounded-xl tw-shadow-xl tw-shadow-cyan-500/25 hover:tw-shadow-cyan-500/40 tw-transform hover:tw-scale-105 tw-transition-all tw-duration-300 tw-w-full sm:tw-w-auto"
           >
             <q-icon name="rocket_launch" class="tw-mr-2 tw-text-white" />
             <span class="tw-text-white tw-font-bold tw-text-sm sm:tw-text-base"
               >เริ่มใช้ฟรีตอนนี้</span
-            >
-          </q-btn>
-          <q-btn
-            no-caps
-            size="lg"
-            flat
-            class="tw-border-2 tw-border-white/30 tw-text-white tw-font-bold tw-px-6 sm:tw-px-10 tw-py-3 sm:tw-py-4 tw-rounded-xl tw-backdrop-blur-sm hover:tw-bg-white/10 tw-transition-all tw-duration-300 tw-w-full sm:tw-w-auto"
-          >
-            <q-icon name="play_circle" class="tw-mr-2 tw-text-white" />
-            <span class="tw-text-white tw-font-bold tw-text-sm sm:tw-text-base"
-              >ดูตัวอย่าง</span
             >
           </q-btn>
         </div>
@@ -304,6 +295,10 @@
 
 <script setup>
 // No additional logic needed for this comparison section
+
+const openMakeUrl = () => {
+  window.open("https://make.9nerd.ai/", "_blank");
+};
 </script>
 
 <style scoped>
