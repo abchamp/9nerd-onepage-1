@@ -59,9 +59,6 @@
               >
                 Free
               </h3>
-              <p class="tw-text-slate-400 tw-text-sm tw-mb-2 sm:tw-mb-3">
-                Coming Soon
-              </p>
               <div class="tw-flex tw-items-baseline tw-justify-center tw-mb-2">
                 <span
                   class="tw-text-2xl sm:tw-text-3xl md:tw-text-4xl tw-font-black tw-text-white"
@@ -165,18 +162,13 @@
               </div>
             </div>
 
-            <!-- CTA Button -->
-            <q-btn
-              no-caps
-              size="md"
-              @click="openMakeUrl"
-              class="tw-w-full tw-mt-2 tw-bg-white/20 tw-text-white tw-font-bold tw-px-4 sm:tw-px-6 tw-py-2 sm:tw-py-3 tw-rounded-lg tw-border-2 tw-border-white/30 hover:tw-bg-white/30 tw-transition-all tw-duration-300"
-            >
+            <!-- Coming Soon Text -->
+            <div class="tw-text-center tw-mt-8 tw-py-3">
               <span
-                class="tw-text-white tw-font-bold tw-text-xs sm:tw-text-sm md:tw-text-base"
-                >เริ่มใช้งานฟรี</span
+                class="tw-text-slate-400 tw-font-bold tw-text-xs sm:tw-text-sm md:tw-text-base"
+                >Coming Soon</span
               >
-            </q-btn>
+            </div>
           </div>
         </div>
 
@@ -204,9 +196,6 @@
               >
                 Premium
               </h3>
-              <p class="tw-text-slate-400 tw-text-sm tw-mb-2 sm:tw-mb-3">
-                Coming Soon
-              </p>
               <div class="tw-flex tw-items-baseline tw-justify-center tw-mb-2">
                 <span
                   class="tw-text-2xl sm:tw-text-3xl md:tw-text-4xl tw-font-black tw-bg-gradient-to-r tw-from-cyan-400 tw-to-blue-400 tw-bg-clip-text tw-text-transparent"
@@ -310,22 +299,13 @@
               </div>
             </div>
 
-            <!-- CTA Button -->
-            <q-btn
-              no-caps
-              size="md"
-              @click="openMakeUrl"
-              class="tw-w-full tw-bg-gradient-to-r tw-from-cyan-500 tw-to-blue-500 tw-text-white tw-font-bold tw-px-4 sm:tw-px-6 tw-py-2 sm:tw-py-3 tw-rounded-lg tw-shadow-xl tw-shadow-cyan-500/25 hover:tw-shadow-cyan-500/40 tw-transform hover:tw-scale-105 tw-transition-all tw-duration-300"
-            >
-              <q-icon
-                name="rocket_launch"
-                class="tw-mr-1 sm:tw-mr-2 tw-text-white tw-text-xs sm:tw-text-sm"
-              />
+            <!-- Coming Soon Text -->
+            <div class="tw-text-center tw-py-3">
               <span
-                class="tw-text-white tw-font-bold tw-text-xs sm:tw-text-sm md:tw-text-base"
-                >เริ่มใช้งานพรีเมี่ยม</span
+                class="tw-text-cyan-300 tw-font-bold tw-text-xs sm:tw-text-sm md:tw-text-base"
+                >Coming Soon</span
               >
-            </q-btn>
+            </div>
           </div>
         </div>
       </div>
@@ -336,9 +316,9 @@
 <script setup>
 // Pricing Section Component for 9nerd.ai landing page
 
-const openMakeUrl = () => {
-  window.open("https://make.9nerd.ai/", "_blank");
-};
+// const openMakeUrl = () => {
+//   window.open("https://make.9nerd.ai/", "_blank");
+// };
 </script>
 
 <style scoped>
