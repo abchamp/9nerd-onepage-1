@@ -55,10 +55,13 @@
             <!-- Package Header -->
             <div class="tw-text-center tw-mb-4 sm:tw-mb-5 md:tw-mb-6">
               <h3
-                class="tw-text-lg sm:tw-text-xl md:tw-text-2xl tw-font-black tw-text-white tw-mb-2 sm:tw-mb-3"
+                class="tw-text-lg sm:tw-text-xl md:tw-text-2xl tw-font-black tw-text-white tw-mb-1"
               >
                 Free
               </h3>
+              <p class="tw-text-slate-400 tw-text-sm tw-mb-2 sm:tw-mb-3">
+                Coming Soon
+              </p>
               <div class="tw-flex tw-items-baseline tw-justify-center tw-mb-2">
                 <span
                   class="tw-text-2xl sm:tw-text-3xl md:tw-text-4xl tw-font-black tw-text-white"
@@ -82,45 +85,19 @@
             >
               <div class="tw-flex tw-items-center tw-space-x-2 sm:tw-space-x-3">
                 <div
-                  class="tw-w-3 tw-h-3 sm:tw-w-4 sm:tw-h-4 md:tw-w-5 md:tw-h-5 tw-bg-slate-500 tw-rounded-full tw-flex tw-items-center tw-justify-center tw-flex-shrink-0"
+                  class="tw-w-3 tw-h-3 sm:tw-w-4 tw-h-4 md:tw-w-5 md:tw-h-5 tw-bg-slate-500 tw-rounded-full tw-flex tw-items-center tw-justify-center tw-flex-shrink-0"
                 >
                   <q-icon
                     name="check"
                     class="tw-text-white tw-text-xs sm:tw-text-sm"
                   />
                 </div>
-                <span
-                  class="tw-text-white tw-text-xs sm:tw-text-sm md:tw-text-base"
-                  >3 Roadmaps ต่อเดือน</span
-                >
-              </div>
-              <div class="tw-flex tw-items-center tw-space-x-2 sm:tw-space-x-3">
-                <div
-                  class="tw-w-3 tw-h-3 sm:tw-w-4 sm:tw-h-4 md:tw-w-5 md:tw-h-5 tw-bg-slate-500 tw-rounded-full tw-flex tw-items-center tw-justify-center tw-flex-shrink-0"
-                >
-                  <q-icon
-                    name="check"
-                    class="tw-text-white tw-text-xs sm:tw-text-sm"
-                  />
+                <div>
+                  <span
+                    class="tw-text-white tw-text-xs sm:tw-text-sm md:tw-text-base tw-font-semibold"
+                    >ฟรี 200K tokens</span
+                  >
                 </div>
-                <span
-                  class="tw-text-white tw-text-xs sm:tw-text-sm md:tw-text-base"
-                  >10 ครั้งของการแชทกับเนื้อหา</span
-                >
-              </div>
-              <div class="tw-flex tw-items-center tw-space-x-2 sm:tw-space-x-3">
-                <div
-                  class="tw-w-3 tw-h-3 sm:tw-w-4 sm:tw-h-4 md:tw-w-5 md:tw-h-5 tw-bg-slate-500 tw-rounded-full tw-flex tw-items-center tw-justify-center tw-flex-shrink-0"
-                >
-                  <q-icon
-                    name="check"
-                    class="tw-text-white tw-text-xs sm:tw-text-sm"
-                  />
-                </div>
-                <span
-                  class="tw-text-white tw-text-xs sm:tw-text-sm md:tw-text-base"
-                  >สรุปเนื้อหาจากไฟล์ 5 ครั้งต่อเดือน</span
-                >
               </div>
               <div class="tw-flex tw-items-center tw-space-x-2 sm:tw-space-x-3">
                 <div
@@ -131,10 +108,60 @@
                     class="tw-text-white tw-text-xs sm:tw-text-sm"
                   />
                 </div>
-                <span
-                  class="tw-text-slate-400 tw-text-xs sm:tw-text-sm md:tw-text-base tw-line-through"
-                  >ไม่สามารถสร้างห้องเรียนได้</span
+                <div>
+                  <span
+                    class="tw-text-slate-400 tw-text-xs sm:tw-text-sm md:tw-text-base tw-line-through"
+                    >ไม่จำกัด Roadmaps</span
+                  >
+                </div>
+              </div>
+              <div class="tw-flex tw-items-center tw-space-x-2 sm:tw-space-x-3">
+                <div
+                  class="tw-w-3 tw-h-3 sm:tw-w-4 sm:tw-h-4 md:tw-w-5 md:tw-h-5 tw-bg-red-500 tw-rounded-full tw-flex tw-items-center tw-justify-center tw-flex-shrink-0"
                 >
+                  <q-icon
+                    name="close"
+                    class="tw-text-white tw-text-xs sm:tw-text-sm"
+                  />
+                </div>
+                <div>
+                  <span
+                    class="tw-text-slate-400 tw-text-xs sm:tw-text-sm md:tw-text-base tw-line-through"
+                    >ไม่จำกัด การแชทกับเนื้อหา</span
+                  >
+                </div>
+              </div>
+              <div class="tw-flex tw-items-center tw-space-x-2 sm:tw-space-x-3">
+                <div
+                  class="tw-w-3 tw-h-3 sm:tw-w-4 sm:tw-h-4 md:tw-w-5 md:tw-h-5 tw-bg-red-500 tw-rounded-full tw-flex tw-items-center tw-justify-center tw-flex-shrink-0"
+                >
+                  <q-icon
+                    name="close"
+                    class="tw-text-white tw-text-xs sm:tw-text-sm"
+                  />
+                </div>
+                <div>
+                  <span
+                    class="tw-text-slate-400 tw-text-xs sm:tw-text-sm md:tw-text-base tw-line-through"
+                    >ไม่จำกัด สรุปเนื้อหาจากไฟล์</span
+                  >
+                </div>
+              </div>
+              <div class="tw-flex tw-items-center tw-space-x-2 sm:tw-space-x-3">
+                <div
+                  class="tw-w-3 tw-h-3 sm:tw-w-4 sm:tw-h-4 md:tw-w-5 md:tw-h-5 tw-bg-red-500 tw-rounded-full tw-flex tw-items-center tw-justify-center tw-flex-shrink-0"
+                >
+                  <q-icon
+                    name="close"
+                    class="tw-text-white tw-text-xs sm:tw-text-sm"
+                  />
+                </div>
+                <div>
+                  <span
+                    class="tw-text-slate-400 tw-text-xs sm:tw-text-sm md:tw-text-base tw-line-through"
+                    >สร้างห้องเรียนได้</span
+                  >
+                </div>
               </div>
             </div>
 
@@ -143,7 +170,7 @@
               no-caps
               size="md"
               @click="openMakeUrl"
-              class="tw-w-full tw-bg-white/20 tw-text-white tw-font-bold tw-px-4 sm:tw-px-6 tw-py-2 sm:tw-py-3 tw-rounded-lg tw-border-2 tw-border-white/30 hover:tw-bg-white/30 tw-transition-all tw-duration-300"
+              class="tw-w-full tw-mt-2 tw-bg-white/20 tw-text-white tw-font-bold tw-px-4 sm:tw-px-6 tw-py-2 sm:tw-py-3 tw-rounded-lg tw-border-2 tw-border-white/30 hover:tw-bg-white/30 tw-transition-all tw-duration-300"
             >
               <span
                 class="tw-text-white tw-font-bold tw-text-xs sm:tw-text-sm md:tw-text-base"
@@ -173,10 +200,13 @@
             <!-- Package Header -->
             <div class="tw-text-center tw-mb-4 sm:tw-mb-5 md:tw-mb-6">
               <h3
-                class="tw-text-lg sm:tw-text-xl md:tw-text-2xl tw-font-black tw-bg-gradient-to-r tw-from-cyan-400 tw-to-blue-400 tw-bg-clip-text tw-text-transparent tw-mb-2 sm:tw-mb-3"
+                class="tw-text-lg sm:tw-text-xl md:tw-text-2xl tw-font-black tw-bg-gradient-to-r tw-from-cyan-400 tw-to-blue-400 tw-bg-clip-text tw-text-transparent tw-mb-1"
               >
                 Premium
               </h3>
+              <p class="tw-text-slate-400 tw-text-sm tw-mb-2 sm:tw-mb-3">
+                Coming Soon
+              </p>
               <div class="tw-flex tw-items-baseline tw-justify-center tw-mb-2">
                 <span
                   class="tw-text-2xl sm:tw-text-3xl md:tw-text-4xl tw-font-black tw-bg-gradient-to-r tw-from-cyan-400 tw-to-blue-400 tw-bg-clip-text tw-text-transparent"
@@ -198,6 +228,22 @@
             <div
               class="tw-space-y-2 sm:tw-space-y-3 tw-mb-4 sm:tw-mb-5 md:tw-mb-6"
             >
+              <div class="tw-flex tw-items-center tw-space-x-2 sm:tw-space-x-3">
+                <div
+                  class="tw-w-3 tw-h-3 sm:tw-w-4 sm:tw-h-4 md:tw-w-5 md:tw-h-5 tw-bg-gradient-to-r tw-from-cyan-500 tw-to-blue-500 tw-rounded-full tw-flex tw-items-center tw-justify-center tw-flex-shrink-0"
+                >
+                  <q-icon
+                    name="all_inclusive"
+                    class="tw-text-white tw-text-xs sm:tw-text-sm"
+                  />
+                </div>
+                <div>
+                  <span
+                    class="tw-text-white tw-text-xs sm:tw-text-sm md:tw-text-base tw-font-semibold"
+                    >ไม่จำกัดจำนวน tokens</span
+                  >
+                </div>
+              </div>
               <div class="tw-flex tw-items-center tw-space-x-2 sm:tw-space-x-3">
                 <div
                   class="tw-w-3 tw-h-3 sm:tw-w-4 sm:tw-h-4 md:tw-w-5 md:tw-h-5 tw-bg-gradient-to-r tw-from-cyan-500 tw-to-blue-500 tw-rounded-full tw-flex tw-items-center tw-justify-center tw-flex-shrink-0"
