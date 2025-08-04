@@ -146,6 +146,7 @@
         <q-btn
           no-caps
           size="lg"
+          @click="openMakeUrl"
           class="tw-bg-gradient-to-r tw-from-cyan-500 tw-to-blue-500 tw-text-white tw-font-bold tw-px-6 sm:tw-px-8 md:tw-px-10 lg:tw-px-12 tw-py-3 sm:tw-py-4 tw-rounded-xl tw-shadow-xl tw-shadow-cyan-500/25 hover:tw-shadow-cyan-500/40 tw-transform hover:tw-scale-105 tw-transition-all tw-duration-300 tw-w-full sm:tw-w-auto"
         >
           <q-icon
@@ -161,6 +162,12 @@
     </div>
   </section>
 </template>
+
+<script setup>
+const openMakeUrl = () => {
+  window.open("https://make.9nerd.ai/", "_blank");
+};
+</script>
 
 <style scoped>
 .tw-animation-delay-500 {
