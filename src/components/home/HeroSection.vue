@@ -73,6 +73,7 @@
             <q-btn
               no-caps
               size="lg"
+              @click="openMakeUrl"
               class="tw-bg-gradient-to-r tw-from-blue-500 tw-to-purple-600 tw-text-white tw-font-bold tw-px-6 sm:tw-px-8 md:tw-px-10 tw-py-3 sm:tw-py-4 tw-rounded-xl tw-shadow-xl tw-shadow-blue-500/25 hover:tw-shadow-blue-500/40 tw-transform hover:tw-scale-105 tw-transition-all tw-duration-300 tw-w-full sm:tw-w-auto"
             >
               <q-icon
@@ -87,7 +88,7 @@
           </div>
 
           <!-- Trust indicators -->
-          <div
+          <!-- <div
             class="tw-flex tw-flex-col sm:tw-flex-row tw-items-center tw-justify-center lg:tw-justify-start tw-space-y-3 sm:tw-space-y-0 sm:tw-space-x-6 tw-pt-4 tw-px-4 sm:tw-px-0"
           >
             <div class="tw-flex tw-items-center tw-space-x-2">
@@ -118,7 +119,7 @@
                 >5.0 from 10k+ reviews</span
               >
             </div>
-          </div>
+          </div> -->
         </div>
 
         <!-- Dashboard Preview -->
@@ -199,6 +200,10 @@
 
 <script setup>
 import HeaderSection from "./HeaderSection.vue";
+
+const openMakeUrl = () => {
+  window.open("https://make.9nerd.ai/", "_blank");
+};
 </script>
 
 <style scoped>

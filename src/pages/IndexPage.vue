@@ -4,7 +4,7 @@
     <HeroSection />
 
     <!-- Testimonials Section -->
-    <TestimonialsSection />
+    <!-- <TestimonialsSection /> -->
 
     <!-- Features Section -->
     <FeaturesSection />
@@ -46,7 +46,7 @@ import ThreeStepsSection from "../components/home/ThreeStepsSection.vue";
 // import SmartLMSSection from "../components/home/SmartLMSSection.vue";
 import FAQSection from "../components/home/FAQSection.vue";
 import PricingSection from "../components/home/PricingSection.vue";
-import TestimonialsSection from "../components/home/TestimonialsSection.vue";
+// import TestimonialsSection from "../components/home/TestimonialsSection.vue";
 import FinalCTASection from "../components/home/FinalCTASection.vue";
 import FooterSection from "../components/home/FooterSection.vue";
 // import BackupSections from "../components/home/BackupSections.vue";

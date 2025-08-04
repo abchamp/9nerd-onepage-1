@@ -451,6 +451,7 @@
               <q-btn
                 no-caps
                 size="lg"
+                @click="openMakeUrl"
                 class="tw-bg-gradient-to-r tw-from-blue-500 tw-to-blue-600 tw-text-white tw-font-bold tw-px-8 tw-py-3 tw-rounded-xl tw-shadow-lg hover:tw-shadow-blue-500/40 tw-transform hover:tw-scale-105 tw-transition-all tw-duration-300"
               >
                 <q-icon name="rocket_launch" class="tw-mr-2 tw-text-white" />
@@ -581,6 +582,7 @@
               <q-btn
                 no-caps
                 size="lg"
+                @click="openMakeUrl"
                 class="tw-bg-gradient-to-r tw-from-purple-500 tw-to-purple-600 tw-text-white tw-font-bold tw-px-8 tw-py-3 tw-rounded-xl tw-shadow-lg hover:tw-shadow-purple-500/40 tw-transform hover:tw-scale-105 tw-transition-all tw-duration-300"
               >
                 <q-icon name="rocket_launch" class="tw-mr-2 tw-text-white" />
@@ -715,6 +717,7 @@
               <q-btn
                 no-caps
                 size="lg"
+                @click="openMakeUrl"
                 class="tw-bg-gradient-to-r tw-from-emerald-500 tw-to-emerald-600 tw-text-white tw-font-bold tw-px-8 tw-py-3 tw-rounded-xl tw-shadow-lg hover:tw-shadow-emerald-500/40 tw-transform hover:tw-scale-105 tw-transition-all tw-duration-300"
               >
                 <q-icon name="rocket_launch" class="tw-mr-2 tw-text-white" />
@@ -1440,6 +1443,7 @@
         <q-btn
           no-caps
           size="xl"
+          @click="openMakeUrl"
           class="tw-bg-gradient-to-r tw-from-cyan-500 tw-to-blue-500 tw-text-white tw-font-bold tw-px-12 tw-py-5 tw-rounded-2xl tw-shadow-2xl tw-shadow-cyan-500/25 hover:tw-shadow-cyan-500/40 tw-transform hover:tw-scale-105 tw-transition-all tw-duration-300"
         >
           <q-icon name="rocket_launch" class="tw-mr-2 tw-text-white" />
@@ -1622,5 +1626,9 @@
     </div>
   </footer>
 </template>
-<script setup></script>
+<script setup>
+const openMakeUrl = () => {
+  window.open("https://make.9nerd.ai/", "_blank");
+};
+</script>
 <style scoped></style>

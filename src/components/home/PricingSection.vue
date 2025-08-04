@@ -142,6 +142,7 @@
             <q-btn
               no-caps
               size="md"
+              @click="openMakeUrl"
               class="tw-w-full tw-bg-white/20 tw-text-white tw-font-bold tw-px-4 sm:tw-px-6 tw-py-2 sm:tw-py-3 tw-rounded-lg tw-border-2 tw-border-white/30 hover:tw-bg-white/30 tw-transition-all tw-duration-300"
             >
               <span
@@ -267,6 +268,7 @@
             <q-btn
               no-caps
               size="md"
+              @click="openMakeUrl"
               class="tw-w-full tw-bg-gradient-to-r tw-from-cyan-500 tw-to-blue-500 tw-text-white tw-font-bold tw-px-4 sm:tw-px-6 tw-py-2 sm:tw-py-3 tw-rounded-lg tw-shadow-xl tw-shadow-cyan-500/25 hover:tw-shadow-cyan-500/40 tw-transform hover:tw-scale-105 tw-transition-all tw-duration-300"
             >
               <q-icon
@@ -287,6 +289,10 @@
 
 <script setup>
 // Pricing Section Component for 9nerd.ai landing page
+
+const openMakeUrl = () => {
+  window.open("https://make.9nerd.ai/", "_blank");
+};
 </script>
 
 <style scoped>

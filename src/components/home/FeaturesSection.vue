@@ -146,6 +146,7 @@
               <q-btn
                 no-caps
                 size="md"
+                @click="openMakeUrl"
                 class="tw-bg-gradient-to-r tw-from-blue-500 tw-to-blue-600 tw-px-4 sm:tw-px-6 tw-py-2 sm:tw-py-2.5 tw-rounded-lg tw-shadow-lg hover:tw-shadow-blue-500/40 tw-transform hover:tw-scale-105 tw-transition-all tw-duration-300 tw-w-full sm:tw-w-auto"
               >
                 <q-icon
@@ -482,6 +483,10 @@
 
 <script setup>
 // 9Nerd.ai Features Section Component
+
+const openMakeUrl = () => {
+  window.open("https://make.9nerd.ai/", "_blank");
+};
 </script>
 
 <style scoped>
