@@ -76,3 +76,11 @@ This project is proprietary software. All rights reserved.
 ## Contributing
 
 For contributions and feature requests, please contact the development team.
+
+
+<code>
+firebase init
+firebase login
+firebase target (อะไรสักอย่าง prod9nerd prod9nerd)
+firebase deploy --only hosting:prod9nerd   
+</code>

@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "nerd-422515"
+  },
+  "targets": {
+    "nerd-422515": {
+      "hosting": {
+        "prod9nerd": [
+          "prod9nerd"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
