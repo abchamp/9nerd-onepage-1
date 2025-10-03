@@ -402,7 +402,7 @@
 // 9Nerd.ai Features Section Component
 
 const openMakeUrl = () => {
-  window.open("https://make.9nerd.ai/", "_blank");
+  window.open("https://devmake.9nerd.ai/", "_blank");
 };
 </script>
 
