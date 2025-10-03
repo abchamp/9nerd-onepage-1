@@ -111,7 +111,7 @@
 // Final CTA Section Component for 9nerd.ai landing page with Thai content
 
 const openMakeUrl = () => {
-  window.open("https://make.9nerd.ai/", "_blank");
+  window.open("https://devmake.9nerd.ai/", "_blank");
 };
 </script>
 
