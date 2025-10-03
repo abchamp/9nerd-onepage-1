@@ -13,7 +13,7 @@
             class="tw-flex tw-items-center tw-space-x-2 sm:tw-space-x-3 tw-mb-3 sm:tw-mb-4"
           >
             <img
-              src="/src/assets/apple-touch-icon.png"
+              src="/apple-touch-icon.png"
               alt="9nerd.ai Logo"
               class="tw-w-6 tw-h-6 sm:tw-w-8 sm:tw-h-8 md:tw-w-10 md:tw-h-10 tw-rounded-xl"
             />

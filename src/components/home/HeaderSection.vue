@@ -8,7 +8,7 @@
       <!-- Logo -->
       <div class="tw-flex tw-items-center tw-space-x-2 sm:tw-space-x-3">
         <img
-          src="/src/assets/apple-touch-icon.png"
+          src="/apple-touch-icon.png"
           alt="9nerd.ai Logo"
           class="tw-w-8 tw-h-8 sm:tw-w-10 sm:tw-h-10 tw-rounded-xl tw-shadow-lg tw-shadow-blue-500/25"
         />
@@ -114,7 +114,7 @@
       >
         <div class="tw-flex tw-items-center tw-space-x-3">
           <img
-            src="/src/assets/apple-touch-icon.png"
+            src="/apple-touch-icon.png"
             alt="9nerd.ai Logo"
             class="tw-w-8 tw-h-8 tw-rounded-xl"
           />

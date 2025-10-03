@@ -160,7 +160,7 @@
                 class="tw-relative tw-aspect-video tw-p-2 tw-overflow-hidden tw-rounded-lg"
               >
                 <img
-                  src="/src/assets/home.png"
+                  src="/home.png"
                   alt="9nerd.ai Dashboard Preview"
                   class="tw-w-full tw-h-full tw-object-cover tw-rounded-lg"
                 />

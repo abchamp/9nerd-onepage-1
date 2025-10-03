@@ -162,7 +162,7 @@
 
             <div class="tw-relative tw-aspect-video tw-p-2 tw-mt-6 lg:tw-mt-0">
               <img
-                src="/src/assets/hero.png"
+                src="/hero.png"
                 alt="Educators Dashboard"
                 class="tw-w-full tw-h-full tw-object-cover tw-rounded-xl tw-shadow-xl tw-shadow-gray-500/25 hover:tw-shadow-gray-500/40 tw-transition-shadow tw-duration-300"
               />
@@ -288,7 +288,7 @@
 
             <div class="tw-relative tw-aspect-video tw-p-2 tw-mt-6 lg:tw-mt-0">
               <img
-                src="/src/assets/feature2.png"
+                src="/feature2.png"
                 alt="Feature 2"
                 class="tw-w-full tw-h-full tw-object-cover tw-rounded-xl tw-shadow-xl tw-shadow-gray-500/25 hover:tw-shadow-gray-500/40 tw-transition-shadow tw-duration-300"
               />
@@ -386,7 +386,7 @@
 
             <div class="tw-relative tw-aspect-video tw-p-2">
               <img
-                src="/src/assets/feature3.png"
+                src="/feature3.png"
                 alt="Feature 3"
                 class="tw-w-full tw-h-full tw-object-cover tw-rounded-xl tw-shadow-xl tw-shadow-gray-500/25 hover:tw-shadow-gray-500/40 tw-transition-shadow tw-duration-300"
               />
